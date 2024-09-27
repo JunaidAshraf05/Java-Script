@@ -8,6 +8,7 @@
 let accountEmail = "hdjhahdya"
 var accountPasssword = "234566" 
 accountCity = "Bilaspur"
+let accountstate ;
 
 // accountId = 2 not allowed
 
@@ -16,7 +17,7 @@ accountEmail = 'jhweiwq'
 accountPasssword= "kjiheiljiwej"
 accountCity = "bwjhejwehw"
 
-console.table([accountId , accountEmail , accountPasssword ,accountCity])
+console.table([accountId , accountEmail , accountPasssword ,accountCity , accountstate])
 
 console.log(accountId);
 
