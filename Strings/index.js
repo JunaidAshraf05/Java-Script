@@ -36,3 +36,6 @@ console.log(newStringOne.trim());
 //replace
 const url = "https://junaid.com/junaidashraf"
 console.log(url.replace('%20','__'))
+
+//it will change  strings to array form
+console.log(gameName.split('_'));
