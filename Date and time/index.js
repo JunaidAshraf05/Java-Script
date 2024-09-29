@@ -43,7 +43,7 @@ console.log(myDate.getDay());
 console.log(myDate.getDate());
 
 
-ne
+
 
 
 
