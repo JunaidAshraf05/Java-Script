@@ -16,6 +16,34 @@ console.log(myDate.toDateString());
 console.log(typeof myDate);
 
 
-let myCreateDate = new Date(2024,8,29,5,3)
+let myCreateDate = new Date("29-09-2024")
 console.log(myCreateDate.toDateString());
 console.log(myCreateDate.toLocaleString());
+
+
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(myCreateDate.getTime());
+console.log(Date.now());
+
+//to get the precise date 
+console.log(Math.floor(Date.now()/10000));
+
+// to get month , second,time,timezone,hours,fullyears
+console.log(myDate);
+console.log(myDate.getMonth());
+console.log(myDate.getSeconds());
+console.log(myDate.getTimezoneOffset());
+console.log(myDate.getHours());
+console.log(myDate.getFullYear());
+// to get the day of the week
+console.log(myDate.getDay());
+// to get the day of the month
+console.log(myDate.getDate());
+
+
+ne
+
+
+
